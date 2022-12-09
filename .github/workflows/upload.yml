@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Upload Episode from YouTube To Anchor.Fm
         uses: zephyrus3/yt2anchorfm@main
         with:
